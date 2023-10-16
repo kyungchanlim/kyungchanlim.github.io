@@ -1,4 +1,5 @@
 title: Kyungchan Lim
 description: Ph.D. Student @ EECS UTK
 # show_downloads: true
-theme: jekyll-theme-basic
+# theme: jekyll-theme-basic
+theme: academic-jekyll-theme
