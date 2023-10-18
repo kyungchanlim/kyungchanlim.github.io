@@ -8,11 +8,11 @@ Kyungchan Lim, Yonghwi Kwon, Doowon Kim\
 2. [WISA'22] Dazzle-attack: Anti-Forensic Server-side Attack via Fail-free Dynamic State Machine. *Best Student Paper Award\
 Bora Lee*, Kyungchan Lim*, JiHo Lee, Chijung Jung, Doowon Kim, Kyu Hyung Lee, Haehyun Cho, and Yonghwi Kwon. (*: co-first authors)\
 
-# Refereed Workshop Proceedings
+# Workshop
 1. [SecWeb'23]Evaluating Password Composition Policy and Password Meters of Popular Websites \
 Kyungchan Lim, Joshua H. Kang, Matthew Dixson, Hyungjoon Koo, and Doowon Kim \
 
-# Refereed Posters
+# Posters
 1. [ACSAC'22] Dazzle-attack: Anti-Forensic Server-side Attack via Fail-free Dynamic State Machine.\
 Bora Lee*, Kyungchan Lim*, JiHo Lee, Chijung Jung, Doowon Kim, Kyu Hyung Lee, Haehyun Cho, and Yonghwi Kwon. (*: co-first authors)\
 
