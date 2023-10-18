@@ -37,7 +37,7 @@ Bachelor of Science in Computer Science
 # Work Experience
 DKBMC (Salesforce Consultant) Jan 2021 - Jul 2021\
 Prompt Technology (Senior Research Engineer) Apr 2018 - Jul 2020\
-Eluon (Network Engineer) Aug 2016 - Mar 2018\
+Eluon (Network Engineer) Aug 2016 - Mar 2018
 
 # Contact
 339 Min H. Kao Bldg\
