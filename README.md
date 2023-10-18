@@ -3,6 +3,7 @@
 
 # Publications
 **C.2.** A Longitudinal Study of Vulnerable Client-side Resources and Web Developers' Updating Behaviors.\
+Kyungchan Lim, Yonghwi Kwon, Doowon Kim\
 ACM IMC’23: The 23rd Internet Measurement Conference.
 
 **C.1.** Dazzle-attack: Anti-Forensic Server-side Attack via Fail-free Dynamic State Machine. *Best Student Paper Award\
