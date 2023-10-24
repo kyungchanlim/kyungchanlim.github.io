@@ -20,20 +20,20 @@ Bora Lee*, Kyungchan Lim*, JiHo Lee, Chijung Jung, Doowon Kim, Kyu Hyung Lee, Ha
 Best Student Paper Award, WISA, 2022
 
 # Education
-August 2021 - Present
-Ph.D. in Computer Science
+August 2021 - Present\
+Ph.D. in Computer Science\
 University of Tennessee, Knoxville
 
-May 2015 - Jul 2016
-Master of Science in Computer Science
+May 2015 - Jul 2016\
+Master of Science in Computer Science\
 State University of New York at Albany
 
-Aug 2011 - May 2015
+Aug 2011 - May 2015\
 Bachelor of Science in Computer Science
 
 # Work Experience
-DKBMC (Salesforce Consultant) Jan 2021 - Jul 2021
-Prompt Technology (Senior Research Engineer) Apr 2018 - Jul 2020
+DKBMC (Salesforce Consultant) Jan 2021 - Jul 2021\
+Prompt Technology (Senior Research Engineer) Apr 2018 - Jul 2020\
 Eluon (Network Engineer) Aug 2016 - Mar 2018
 
 # Contact
