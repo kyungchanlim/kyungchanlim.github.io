@@ -1,5 +1,5 @@
 # Kyungchan Lim
-### I'm a Ph.D. student at the University of Tennessee, Knoxville and my advisor is [Dr. Doowon Kim](https://doowon.github.io/). I’m interested in computer security, especially data-driven security, and web security measurements. I’m currently working in web security, analyzing websites to measure security from technical and human-centered perspectives.
+### I'm a Ph.D. student in [the Department of Electrical Engineering and Computer Science](https://www.eecs.utk.edu/) at [the University of Tennessee, Knoxville](https://www.utk.edu/) and my advisor is [Dr. Doowon Kim](https://doowon.github.io/). I’m interested in computer security, especially data-driven security, and web security measurements. I’m currently working in web security, analyzing websites to measure security from technical and human-centered perspectives.
 
 # Publications
 ## Refereed Conference Proceedings
