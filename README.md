@@ -7,19 +7,19 @@ C.2. [IMC'23] A Longitudinal Study of Vulnerable Client-side Resources and Web D
 Kyungchan Lim, Yonghwi Kwon, Doowon Kim
 
 C.1. [WISA'22] Dazzle-attack: Anti-Forensic Server-side Attack via Fail-free Dynamic State Machine. *Best Student Paper Award\
-Bora Lee\*, Kyungchan Lim\*, JiHo Lee, Chijung Jung, Doowon Kim, Kyu Hyung Lee, Haehyun Cho, and Yonghwi Kwon. (\*: co-first authors)
+Bora Lee\*, Kyungchan Lim\*, JiHo Lee, Chijung Jung, Doowon Kim, Kyu Hyung Lee, Haehyun Cho, and Yonghwi Kwon (\*: co-first authors)
 
 ## Referred Journals
 J.1. [IEEE Access] Demystifying the Regional Phishing Landscape in South Korea\
-Hyunjun Park, Kyungchan Lim, Doowon Kim, Donghyun Yu, and Hyungjoon Koo.
+Hyunjun Park, Kyungchan Lim, Doowon Kim, Donghyun Yu, and Hyungjoon Koo
 
 # Workshop
 1. [SecWeb'23]Evaluating Password Composition Policy and Password Meters of Popular Websites 
 Kyungchan Lim, Joshua H. Kang, Matthew Dixson, Hyungjoon Koo, and Doowon Kim 
 
 # Posters
-1. [ACSAC'22] Dazzle-attack: Anti-Forensic Server-side Attack via Fail-free Dynamic State Machine.
-Bora Lee*, Kyungchan Lim*, JiHo Lee, Chijung Jung, Doowon Kim, Kyu Hyung Lee, Haehyun Cho, and Yonghwi Kwon. (*: co-first authors)
+1. [ACSAC'22] Dazzle-attack: Anti-Forensic Server-side Attack via Fail-free Dynamic State Machine\
+Bora Lee\*, Kyungchan Lim\*, JiHo Lee, Chijung Jung, Doowon Kim, Kyu Hyung Lee, Haehyun Cho, and Yonghwi Kwon (\*: co-first authors)
 
 # Honors & Awards
 Best Student Paper Award, WISA, 2022
