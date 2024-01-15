@@ -1,12 +1,17 @@
 # Kyungchan Lim
-### I'm a Ph.D. student at the University of Tennessee, Knoxville and my advisor is Dr.Doowon Kim. I’m interested in computer security, especially data-driven security, and web security measurements. I’m currently working in the area of web security, analyzing websites in order to measure security from technical and human-centered perspectives.
+### I'm a Ph.D. student at the University of Tennessee, Knoxville and my advisor is Dr.Doowon Kim. I’m interested in computer security, especially data-driven security, and web security measurements. I’m currently working in web security, analyzing websites to measure security from technical and human-centered perspectives.
 
 # Publications
-1. [IMC'23] A Longitudinal Study of Vulnerable Client-side Resources and Web Developers' Updating Behaviors.
+## Refereed Conference Proceedings
+C.2. [IMC'23] A Longitudinal Study of Vulnerable Client-side Resources and Web Developers' Updating Behaviors.
 Kyungchan Lim, Yonghwi Kwon, Doowon Kim
 
-2. [WISA'22] Dazzle-attack: Anti-Forensic Server-side Attack via Fail-free Dynamic State Machine. *Best Student Paper Award\
-Bora Lee*, Kyungchan Lim*, JiHo Lee, Chijung Jung, Doowon Kim, Kyu Hyung Lee, Haehyun Cho, and Yonghwi Kwon. (*: co-first authors)\
+C.1. [WISA'22] Dazzle-attack: Anti-Forensic Server-side Attack via Fail-free Dynamic State Machine. *Best Student Paper Award\
+Bora Lee\*, Kyungchan Lim\*, JiHo Lee, Chijung Jung, Doowon Kim, Kyu Hyung Lee, Haehyun Cho, and Yonghwi Kwon. (*: co-first authors)
+
+## Referred Journals
+J.1. [IEEE Access] Demystifying the Regional Phishing Landscape in South Korea
+Hyunjun Park, Kyungchan Lim, Doowon Kim, Donghyun Yu, and Hyungjoon Koo.
 
 # Workshop
 1. [SecWeb'23]Evaluating Password Composition Policy and Password Meters of Popular Websites 
