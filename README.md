@@ -14,7 +14,7 @@ J.1. [IEEE Access] Demystifying the Regional Phishing Landscape in South Korea\
 Hyunjun Park, Kyungchan Lim, Doowon Kim, Donghyun Yu, and Hyungjoon Koo
 
 # Workshop
-W.1. [SecWeb'23]Evaluating Password Composition Policy and Password Meters of Popular Websites 
+W.1. [SecWeb'23]Evaluating Password Composition Policy and Password Meters of Popular Websites\
 Kyungchan Lim, Joshua H. Kang, Matthew Dixson, Hyungjoon Koo, and Doowon Kim 
 
 # Posters
