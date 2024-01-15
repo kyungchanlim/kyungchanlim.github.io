@@ -14,11 +14,11 @@ J.1. [IEEE Access] Demystifying the Regional Phishing Landscape in South Korea\
 Hyunjun Park, Kyungchan Lim, Doowon Kim, Donghyun Yu, and Hyungjoon Koo
 
 # Workshop
-1. [SecWeb'23]Evaluating Password Composition Policy and Password Meters of Popular Websites 
+W.1. [SecWeb'23]Evaluating Password Composition Policy and Password Meters of Popular Websites 
 Kyungchan Lim, Joshua H. Kang, Matthew Dixson, Hyungjoon Koo, and Doowon Kim 
 
 # Posters
-1. [ACSAC'22] Dazzle-attack: Anti-Forensic Server-side Attack via Fail-free Dynamic State Machine\
+P.1. [ACSAC'22] Dazzle-attack: Anti-Forensic Server-side Attack via Fail-free Dynamic State Machine\
 Bora Lee\*, Kyungchan Lim\*, JiHo Lee, Chijung Jung, Doowon Kim, Kyu Hyung Lee, Haehyun Cho, and Yonghwi Kwon (\*: co-first authors)
 
 # Honors & Awards
