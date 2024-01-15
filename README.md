@@ -3,14 +3,14 @@
 
 # Publications
 ## Refereed Conference Proceedings
-C.2. [IMC'23] A Longitudinal Study of Vulnerable Client-side Resources and Web Developers' Updating Behaviors.
+C.2. [IMC'23] A Longitudinal Study of Vulnerable Client-side Resources and Web Developers' Updating Behaviors\
 Kyungchan Lim, Yonghwi Kwon, Doowon Kim
 
 C.1. [WISA'22] Dazzle-attack: Anti-Forensic Server-side Attack via Fail-free Dynamic State Machine. *Best Student Paper Award\
-Bora Lee\*, Kyungchan Lim\*, JiHo Lee, Chijung Jung, Doowon Kim, Kyu Hyung Lee, Haehyun Cho, and Yonghwi Kwon. (*: co-first authors)
+Bora Lee\*, Kyungchan Lim\*, JiHo Lee, Chijung Jung, Doowon Kim, Kyu Hyung Lee, Haehyun Cho, and Yonghwi Kwon. (\*: co-first authors)
 
 ## Referred Journals
-J.1. [IEEE Access] Demystifying the Regional Phishing Landscape in South Korea
+J.1. [IEEE Access] Demystifying the Regional Phishing Landscape in South Korea\
 Hyunjun Park, Kyungchan Lim, Doowon Kim, Donghyun Yu, and Hyungjoon Koo.
 
 # Workshop
