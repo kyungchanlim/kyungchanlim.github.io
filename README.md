@@ -5,7 +5,7 @@
 ## Refereed Conference Proceedings
 C.3. [WWW'24] Phishing Vs. Legit: Comparative Analysis of Client-Side Resources of Phishing and Target Brand Websites\
 Kyungchan Lim, Jaehwan Park, Doowon Kim\
-The Web Conference 2024 (TheWebConf 2024, formerly WWW)
+The Web Conference 2024 (TheWebConf 2024, formerly WWW). Acceptance rate: 20.2% (out of 2008)
 
 C.2. [IMC'23] A Longitudinal Study of Vulnerable Client-side Resources and Web Developers' Updating Behaviors\
 Kyungchan Lim, Yonghwi Kwon, Doowon Kim\
