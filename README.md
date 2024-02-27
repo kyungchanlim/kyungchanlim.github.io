@@ -3,11 +3,17 @@
 
 # Publications
 ## Refereed Conference Proceedings
+C.3. [WWW'24] Phishing Vs. Legit: Comparative Analysis of Client-Side Resources of Phishing and Target Brand Websites\
+Kyungchan Lim, Jaehwan Park, Doowon Kim\
+The Web Conference 2024 (TheWebConf 2024, formerly WWW)
+
 C.2. [IMC'23] A Longitudinal Study of Vulnerable Client-side Resources and Web Developers' Updating Behaviors\
-Kyungchan Lim, Yonghwi Kwon, Doowon Kim
+Kyungchan Lim, Yonghwi Kwon, Doowon Kim\
+ACM IMC 2023: The 23rd ACM Internet Measurement Conference
 
 C.1. [WISA'22] Dazzle-attack: Anti-Forensic Server-side Attack via Fail-free Dynamic State Machine. *Best Student Paper Award\
-Bora Lee\*, Kyungchan Lim\*, JiHo Lee, Chijung Jung, Doowon Kim, Kyu Hyung Lee, Haehyun Cho, and Yonghwi Kwon (\*: co-first authors)
+Bora Lee\*, Kyungchan Lim\*, JiHo Lee, Chijung Jung, Doowon Kim, Kyu Hyung Lee, Haehyun Cho, and Yonghwi Kwon (\*: co-first authors)\
+WISA’22: The 23rd World Conference on Information Security Applications
 
 ## Referred Journals
 J.1. [IEEE Access] Demystifying the Regional Phishing Landscape in South Korea\
