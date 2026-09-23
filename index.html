@@ -7,13 +7,13 @@
   <title>Kyungchan Lim</title>
   
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBJY3BFJ57"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QBGWRD5T47"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-MBJY3BFJ57');
+    gtag('config', 'G-QBGWRD5T47');
   </script>
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -486,50 +486,64 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   
   <script>
-    // Smooth scrolling for navbar links
-    $(document).ready(function(){
-      $(".site-nav a").on('click', function(event) {
-        if (this.hash !== "") {
-          event.preventDefault();
-          var hash = this.hash;
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top - 56
-          }, 800, function(){
-            window.location.hash = hash;
-          });
-        }
-      });
-      
-      // Add active class to the matching nav item when scrolling
-      $(window).scroll(function() {
-        var scrollDistance = $(window).scrollTop() + 60;
-        var currentId = null;
+    // Smooth scrolling for top navigation links.
+    document.querySelectorAll('.site-nav a[href^="#"]').forEach(function(link) {
+      link.addEventListener('click', function(event) {
+        var targetId = this.getAttribute('href').substring(1);
+        var target = document.getElementById(targetId);
 
-        $('section').each(function() {
-          if ($(this).position().top <= scrollDistance) {
-            currentId = $(this).attr('id');
-          }
+        if (!target) return;
+
+        event.preventDefault();
+        var headerOffset = 56;
+        var targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
         });
 
-        $('.site-nav a').removeClass('active');
-        if (currentId) {
-          $('.site-nav a[href="#' + currentId + '"]').addClass('active');
-        }
-      }).scroll();
-
-      // Automatically display the page's last-modified date in the footer.
-      var lastUpdatedElement = document.getElementById('last-updated');
-      if (lastUpdatedElement) {
-        var lastModified = new Date(document.lastModified);
-        if (!isNaN(lastModified.getTime())) {
-          lastUpdatedElement.textContent = lastModified.toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-          });
-        }
-      }
+        // Keep the section in the URL without triggering another jump.
+        history.replaceState(null, '', '#' + targetId);
+      });
     });
+
+    // Highlight the matching navigation item while scrolling.
+    function updateActiveNav() {
+      var scrollDistance = window.pageYOffset + 60;
+      var currentId = null;
+
+      document.querySelectorAll('section[id]').forEach(function(section) {
+        if (section.offsetTop <= scrollDistance) {
+          currentId = section.id;
+        }
+      });
+
+      document.querySelectorAll('.site-nav a').forEach(function(link) {
+        link.classList.remove('active');
+      });
+
+      if (currentId) {
+        var activeLink = document.querySelector('.site-nav a[href="#' + currentId + '"]');
+        if (activeLink) activeLink.classList.add('active');
+      }
+    }
+
+    window.addEventListener('scroll', updateActiveNav);
+    updateActiveNav();
+
+    // Automatically display the page's last-modified date in the footer.
+    var lastUpdatedElement = document.getElementById('last-updated');
+    if (lastUpdatedElement) {
+      var lastModified = new Date(document.lastModified);
+      if (!isNaN(lastModified.getTime())) {
+        lastUpdatedElement.textContent = lastModified.toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        });
+      }
+    }
   </script>
 </body>
 </html>
