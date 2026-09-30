@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kyungchan Lim</title>
   
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QBGWRD5T47"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -486,7 +485,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   
   <script>
-    // Smooth scrolling for top navigation links.
     document.querySelectorAll('.site-nav a[href^="#"]').forEach(function(link) {
       link.addEventListener('click', function(event) {
         var targetId = this.getAttribute('href').substring(1);
@@ -503,7 +501,6 @@
           behavior: 'smooth'
         });
 
-        // Keep the section in the URL without triggering another jump.
         history.replaceState(null, '', '#' + targetId);
       });
     });
@@ -532,7 +529,6 @@
     window.addEventListener('scroll', updateActiveNav);
     updateActiveNav();
 
-    // Automatically display the page's last-modified date in the footer.
     var lastUpdatedElement = document.getElementById('last-updated');
     if (lastUpdatedElement) {
       var lastModified = new Date(document.lastModified);
@@ -544,6 +540,44 @@
         });
       }
     }
+
+    document.querySelectorAll('.site-nav a[href^="#"]').forEach(function (link) {
+      link.addEventListener('click', function () {
+        gtag('event', 'nav_click', { section_name: this.getAttribute('href').substring(1) });
+      });
+    });
+
+    var seenSections = {};
+    var sectionObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        var id = e.target.id;
+        if (e.isIntersecting && !seenSections[id]) {
+          seenSections[id] = true;
+          gtag('event', 'section_view', { section_name: id });
+        }
+      });
+    }, { rootMargin: '0px 0px -50% 0px' });
+    document.querySelectorAll('section[id]').forEach(function (s) { sectionObserver.observe(s); });
+
+    var depthMarks = [25, 50, 75, 90], sentDepth = {};
+    window.addEventListener('scroll', function () {
+      var pct = (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight * 100;
+      depthMarks.forEach(function (m) {
+        if (pct >= m && !sentDepth[m]) {
+          sentDepth[m] = true;
+          gtag('event', 'scroll_depth', { percent: m });
+        }
+      });
+    }, { passive: true });
+
+    document.querySelectorAll('a[href$=".pdf"]').forEach(function (a) {
+      a.addEventListener('click', function () {
+        gtag('event', 'paper_click', {
+          paper_title: this.textContent.trim().slice(0, 100),
+          link_url: this.getAttribute('href')
+        });
+      });
+    });
   </script>
 </body>
 </html>
